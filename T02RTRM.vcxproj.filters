@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Animation System">
+      <UniqueIdentifier>{6fb1390e-4b19-49ee-a58f-53fb1e4dbd12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{466c5aa7-1a4f-46dd-8061-d9452e28b4eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win">
+      <UniqueIdentifier>{fd93e100-13ab-4bb2-9072-6055af5a19b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Units">
+      <UniqueIdentifier>{d1bfef41-f74f-4a44-8e18-0d74defdefa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mth">
+      <UniqueIdentifier>{87b57427-bb5e-48f8-a1a2-9dc4a96f5809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation System\Render system">
+      <UniqueIdentifier>{35d7156f-eea8-400a-9796-710c28022371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation System\Input system">
+      <UniqueIdentifier>{85309c76-172f-463b-aa4b-1f653eefb861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation System\Render system\Glew">
+      <UniqueIdentifier>{f2a971a0-fe48-41a9-b85c-294b7e25c483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation System\Render system\Resources">
+      <UniqueIdentifier>{2f95e9e0-0226-4328-97d9-fdea3acbbf81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\shaders\default\frag.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="bin\shaders\default\geom.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="bin\shaders\default\vert.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\anim\anim.cpp">
+      <Filter>Source Files\Animation System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\winmsg.cpp">
+      <Filter>Source Files\Win</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\units.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\render\render.cpp">
+      <Filter>Source Files\Animation System\Render system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\render\resources\material.cpp">
+      <Filter>Source Files\Animation System\Render system\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\render\resources\shader.cpp">
+      <Filter>Source Files\Animation System\Render system\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\render\glew\glew.c">
+      <Filter>Source Files\Animation System\Render system\Glew</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\anim\anim.h">
+      <Filter>Source Files\Animation System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\timer.h">
+      <Filter>Source Files\Animation System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\def.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win\win.h">
+      <Filter>Source Files\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="src\units\units.h">
+      <Filter>Source Files\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth.h">
+      <Filter>Source Files\Mth</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_camera.h">
+      <Filter>Source Files\Mth</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_matr.h">
+      <Filter>Source Files\Mth</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec2.h">
+      <Filter>Source Files\Mth</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec3.h">
+      <Filter>Source Files\Mth</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec4.h">
+      <Filter>Source Files\Mth</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mthdef.h">
+      <Filter>Source Files\Mth</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\render\render.h">
+      <Filter>Source Files\Animation System\Render system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\render\render_primitive.h">
+      <Filter>Source Files\Animation System\Render system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\render\resources\material.h">
+      <Filter>Source Files\Animation System\Render system\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\render\resources\res.h">
+      <Filter>Source Files\Animation System\Render system\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\render\resources\shader.h">
+      <Filter>Source Files\Animation System\Render system\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\render\resources\texture.h">
+      <Filter>Source Files\Animation System\Render system\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\input\input.h">
+      <Filter>Source Files\Animation System\Input system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\input\joystick.h">
+      <Filter>Source Files\Animation System\Input system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\input\keyboard.h">
+      <Filter>Source Files\Animation System\Input system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\input\mouse.h">
+      <Filter>Source Files\Animation System\Input system</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
